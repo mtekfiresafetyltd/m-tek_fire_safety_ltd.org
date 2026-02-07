@@ -936,6 +936,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const customerPhoneInput = document.getElementById("customerPhone");
   const customerAddressInput = document.getElementById("customerAddress");
   const customerNoteInput = document.getElementById("customerNote");
+  const clearCartBtn = document.getElementById("clearCart");
 
   const topPicksPrev = document.querySelector(".top-picks-prev");
   const topPicksNext = document.querySelector(".top-picks-next");
@@ -1251,7 +1252,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // --------------------------
-  // 11. Checkout (WhatsApp & Email)
+  // 11. Checkout (WhatsApp & Email) + Clear cart
   // --------------------------
   function buildOrderSummary() {
     if (!cart.length) return "";
@@ -1328,6 +1329,20 @@ document.addEventListener("DOMContentLoaded", () => {
         orderEmail
       )}?subject=${subject}&body=${body}`;
       window.location.href = mailto;
+    });
+  }
+
+  if (clearCartBtn) {
+    clearCartBtn.addEventListener("click", () => {
+      if (!cart.length) {
+        alert("Your cart is already empty.");
+        return;
+      }
+      if (confirm("Clear all items from your cart?")) {
+        cart = [];
+        saveCart();
+        renderCart();
+      }
     });
   }
 
