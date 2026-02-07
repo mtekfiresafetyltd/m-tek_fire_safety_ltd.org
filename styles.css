@@ -803,8 +803,19 @@ a:hover {
   z-index: 1210;
   display: flex;
   flex-direction: column;
+  max-height: 100vh;        /* limit to viewport height */
 }
 
+/* Make the inside of the drawer scrollable */
+.cart-body {
+  padding: 0.75rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  flex: 1;                  /* take remaining height */
+  min-height: 0;            /* allow flex child to scroll */
+  overflow-y: auto;         /* enable vertical scrolling */
+}
 .cart-drawer.open {
   transform: translateX(0);
 }
@@ -827,14 +838,6 @@ a:hover {
   background: none;
   font-size: 1.4rem;
   cursor: pointer;
-}
-
-.cart-body {
-  padding: 0.75rem 1rem 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  height: 100%;
 }
 
 .cart-items {
