@@ -967,6 +967,22 @@ a:hover {
   margin-top: 0.4rem;
 }
 
+/* Clear cart link */
+
+.cart-clear-link {
+  border: none;
+  background: none;
+  color: #f97373;
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+}
+
+.cart-clear-link:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 
 .site-footer {
