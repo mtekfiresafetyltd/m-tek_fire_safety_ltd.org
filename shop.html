@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Online – M‑Tek Fire & Safety Ltd</title>
+  <meta name="description" content="Shop fire safety, security, solar, home automation, alarm and surveillance equipment from M‑Tek Fire & Safety Ltd. Zero-backend cart with checkout via WhatsApp or email.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js" defer></script>
+  <script src="shop.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#home" class="brand">
+        <img src="logo.png" alt="M-Tek Fire & Safety Ltd logo" loading="lazy">
+        <div class="brand-text">
+          <span class="brand-name">M-TEK FIRE & SAFETY LTD</span>
+          <span class="brand-tagline">Fire Safety, Security & Solar Solutions</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#products" class="nav-link">Products</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="shop.html" class="nav-link active">Shop Online</a>
+        <a href="https://jasonjeremiah201022-ux.github.io/insatech.org"
+           class="nav-link"
+           target="_blank"
+           rel="noopener noreferrer">INSATECH</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="cart-toggle open-cart" aria-label="Open cart">
+        Cart (<span class="cart-count">0</span>)
+      </button>
+
+      <button class="menu-toggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <aside class="mobile-nav" aria-hidden="true">
+    <button class="close-mobile-nav" aria-label="Close navigation">&times;</button>
+    <nav>
+      <a href="index.html#home" class="nav-link">Home</a>
+      <a href="index.html#about" class="nav-link">About</a>
+      <a href="index.html#products" class="nav-link">Products</a>
+      <a href="index.html#services" class="nav-link">Services</a>
+      <a href="shop.html" class="nav-link">Shop Online</a>
+      <a href="https://jasonjeremiah201022-ux.github.io/insatech.org"
+         class="nav-link"
+         target="_blank"
+         rel="noopener noreferrer">INSATECH</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+  </aside>
+  <div class="backdrop"></div>
+
+  <main>
+    <!-- Shop hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Shop fire safety, security & solar equipment online</h1>
+        <p>
+          Browse M‑Tek’s curated range of fire extinguishers, safety gear, security devices, solar equipment,
+          home automation, alarm and surveillance products. Add to cart and checkout via WhatsApp or email.
+        </p>
+        <div class="hero-actions" style="margin-top:1.2rem;">
+          <a href="#catalog" class="btn btn-primary">Start Shopping</a>
+          <button class="btn btn-outline open-cart" type="button">View Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top picks carousel -->
+    <section class="section section-alt" id="top-picks">
+      <div class="container">
+        <header class="section-header">
+          <h2>Top Picks</h2>
+          <p>Popular and recommended products from M‑Tek Fire & Safety Ltd.</p>
+        </header>
+
+        <div class="top-picks-wrapper">
+          <button class="top-picks-nav top-picks-prev" type="button" aria-label="Previous products">&lsaquo;</button>
+
+          <div class="top-picks-track" aria-label="Top products">
+            <!-- Filled by shop.js -->
+          </div>
+
+          <button class="top-picks-nav top-picks-next" type="button" aria-label="Next products">&rsaquo;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section class="section" id="catalog">
+      <div class="container">
+        <header class="section-header">
+          <h2>All Products</h2>
+          <p>Filter by category or search by name to find the right equipment.</p>
+        </header>
+
+        <div class="shop-toolbar">
+          <div class="category-chips" id="categoryFilters">
+            <button type="button" class="chip chip-active" data-category="All">All</button>
+            <button type="button" class="chip" data-category="Fire">Fire</button>
+            <button type="button" class="chip" data-category="Safety">Safety</button>
+            <button type="button" class="chip" data-category="Security">Security</button>
+            <button type="button" class="chip" data-category="Solar">Solar</button>
+            <button type="button" class="chip" data-category="Home Automation, Alarm & Surveillance">
+              Home Automation, Alarm &amp; Surveillance
+            </button>
+          </div>
+
+          <div class="search-box">
+            <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+          </div>
+        </div>
+
+        <div id="productGrid" class="product-grid">
+          <!-- Filled by shop.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart drawer -->
+  <div class="cart-drawer-backdrop"></div>
+  <aside class="cart-drawer" aria-hidden="true">
+    <header class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="cart-close" type="button" aria-label="Close cart">&times;</button>
+    </header>
+
+    <div class="cart-body">
+      <div class="cart-items">
+        <!-- Filled by shop.js -->
+      </div>
+
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <strong id="cartTotal">₦0</strong>
+        </div>
+        <p class="cart-note">
+          Prices and availability are indicative. Final confirmation will be sent after we review your order.
+        </p>
+      </div>
+
+      <form class="cart-checkout" id="checkoutForm">
+        <h3>Customer details</h3>
+        <label>
+          Name
+          <input type="text" id="customerName" required>
+        </label>
+        <label>
+          Phone number
+          <input type="tel" id="customerPhone" required>
+        </label>
+        <label>
+          Delivery address
+          <textarea id="customerAddress" rows="2" required></textarea>
+        </label>
+        <label>
+          Additional note (optional)
+          <textarea id="customerNote" rows="2" placeholder="E.g. preferred delivery time, landmark"></textarea>
+        </label>
+
+        <div class="cart-actions">
+          <button type="button" id="checkoutWhatsApp" class="btn btn-primary btn-small">
+            Checkout via WhatsApp
+          </button>
+          <button type="button" id="checkoutEmail" class="btn btn-outline btn-small">
+            Checkout via Email
+          </button>
+        </div>
+      </form>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Head Office – Kaduna</h3>
+        <p>
+          YY 12, Kazaure Road, By Lagos Street Roundabout<br>
+          Tel: <a href="tel:08033498452">08033498452</a>
+        </p>
+      </div>
+      <div>
+        <h3>Branch Office – Kaduna</h3>
+        <p>
+          Plot 45, Sir Patrick Ibrahim Yakowa Way, By Milton School, Kamazou<br>
+          Tel: <a href="tel:08170577595">08170577595</a>
+        </p>
+      </div>
+      <div>
+        <h3>Contact &amp; Social</h3>
+        <p>Email: <a href="mailto:mtekfiresafetyltd@gmail.com">mtekfiresafetyltd@gmail.com</a></p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/MtekFireLtd"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="social-link social-facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#1877F2"
+                    d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.406.593 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.795.716-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .593 23.406 0 22.675 0z"/>
+            </svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/mtek.ltd"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="social-link social-instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#E1306C"
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.427.402a4.92 4.92 0 0 1 1.782 1.153 4.92 4.92 0 0 1 1.153 1.782c.162.457.346 1.256.402 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.402 2.427a4.92 4.92 0 0 1-1.153 1.782 4.92 4.92 0 0 1-1.782 1.153c-.457.162-1.256.346-2.427.402-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.427-.402a4.92 4.92 0 0 1-1.782-1.153 4.92 4.92 0 0 1-1.153-1.782c-.162-.457-.346-1.256-.402-2.427C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.402-2.427a4.92 4.92 0 0 1 1.153-1.782 4.92 4.92 0 0 1 1.782-1.153c.457-.162 1.256-.346 2.427-.402C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.78.13 4.845.308 4.042.546c-.81.24-1.498.556-2.18 1.238C1.18 2.468.864 3.156.624 3.966c-.238.803-.416 1.738-.474 3.01C.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.058 1.272.236 2.207.474 3.01.24.81.556 1.498 1.238 2.18.682.682 1.37.998 2.18 1.238.803.238 1.738.416 3.01.474C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.272-.058 2.207-.236 3.01-.474.81-.24 1.498-.556 2.18-1.238.682-.682.998-1.37 1.238-2.18.238-.803.416-1.738.474-3.01.058-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.058-1.272-.236-2.207-.474-3.01a4.92 4.92 0 0 0-1.238-2.18 4.92 4.92 0 0 0-2.18-1.238c-.803-.238-1.738-.416-3.01-.474C15.668.013 15.259 0 12 0z"/>
+              <path fill="#E1306C"
+                    d="M12 5.838A6.162 6.162 0 1 0 18.162 12 6.164 6.164 0 0 0 12 5.838zm0 10.162A3.999 3.999 0 1 1 16 12a3.999 3.999 0 0 1-4 4z"/>
+              <circle fill="#E1306C" cx="18.406" cy="5.594" r="1.44"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.tiktok.com/@mtekfiresafety"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="social-link social-tiktok">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#000000"
+                    d="M12.5 3C12.5 2.45 12.05 2 11.5 2H9.5C9 2 8.5 2.45 8.5 3V14.25C8.5 15.22 7.72 16 6.75 16C5.78 16 5 15.22 5 14.25C5 13.28 5.78 12.5 6.75 12.5C7.02 12.5 7.28 12.55 7.52 12.64V10.33C7.27 10.29 7.01 10.25 6.75 10.25C4.68 10.25 3 11.93 3 14C3 16.07 4.68 17.75 6.75 17.75C8.82 17.75 10.5 16.07 10.5 14V8.7C11.41 9.43 12.54 9.86 13.75 9.86V8.11C12.9 8.11 12.11 7.79 11.5 7.24V3H12.5Z"/>
+              <path fill="#000000"
+                    d="M15.25 4C15.25 5.79 16.71 7.25 18.5 7.25V5.5C17.95 5.5 17.5 5.05 17.5 4.5H15.25Z"/>
+            </svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-map">
+      <div class="container">
+        <iframe
+          src="https://maps.google.com/maps?q=m%20tek%20fire%20%26%20safety%20ltd&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <p class="footer-copy">
+      © 2012–2026 M‑Tek Fire & Safety Ltd. RC: 1082534. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
