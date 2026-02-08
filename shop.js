@@ -114,12 +114,12 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F013",
-      name: "Fire Brigade Inlet Connection",
+      name: "Auto Fire Ball",
       category: "Fire",
-      price: 120000,
-      image: "https://via.placeholder.com/400x280?text=Brigade+Inlet",
+      price: 220000,
+      image: "assets/products/Auto Fire Ball.jpg",
       description: "Inlet connection for fire brigade to boost water into hydrant network.",
-      featured: false
+      featured: true
     },
     {
       id: "F014",
