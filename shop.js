@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Auto Fire Ball",
       category: "Fire",
       price: 220000,
-      image: "assets/products/Auto Fire Ball.jpg",
+      image: "m-tek_fire_-_safety_ltd.org/assets/products/Auto Fire Ball.jpg",
       description: "Inlet connection for fire brigade to boost water into hydrant network.",
       featured: true
     },
