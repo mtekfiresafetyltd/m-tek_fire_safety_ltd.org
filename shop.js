@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "6kg DCP Fire Extinguisher",
       category: "Fire",
       price: 28000,
-      image: "assets/products/Auto Fire Ball.jpg",
+      image: "img.webp",
       description: "Portable dry chemical powder extinguisher suitable for offices, shops and homes.",
       featured: true
     },
