@@ -38,9 +38,9 @@ img {
   display: block;
 }
 
-/* Fade-in for lazy images */
+/* Simpler lazy image style - don't hide dynamic images */
 img[loading="lazy"] {
-  opacity: 0;
+  opacity: 1; /* visible by default */
   transition: opacity 0.5s ease-in-out;
 }
 img[loading="lazy"].loaded {
