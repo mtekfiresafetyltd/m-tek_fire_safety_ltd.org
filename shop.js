@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F011",
-      name: "Fire Hose Reel & Box (Stangoz)
+      name: "Fire Hose Reel & Box (Stangoz)" 
       category: "Fire",
       price: 330000,
       image: "fire hose reel and box stangoz.jpg",
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
        {
       id: "F012",
-      name: "Fire Hose Reel & Box (Naffco)
+      name: "Fire Hose Reel & Box (Naffco)" 
       category: "Fire",
       price: 350000,
       image: "fire hose reel and box naffco.jpg",
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F013",
-      name: "Fire Hose Reel & Box (Bajik)
+      name: "Fire Hose Reel & Box (Bajik)" 
       category: "Fire",
       price: 350000,
       image: "fire hose reel and box bajik.jpg",
