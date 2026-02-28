@@ -604,8 +604,10 @@ a:hover {
 
 .top-pick-card img {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  background-color: #f9fafb;
 }
 
 .top-pick-body {
@@ -862,10 +864,11 @@ a:hover {
 .cart-item img {
   width: 52px;
   height: 52px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 0.5rem;
   border: 1px solid var(--border-subtle);
-}
+  background-color: #f9fafb;
+} 
 
 .cart-item-details {
   flex: 1;
