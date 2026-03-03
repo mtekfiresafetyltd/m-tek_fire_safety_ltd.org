@@ -6,20 +6,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // FIRE (20)
     {
       id: "F001",
-      name: "6kg DCP Fire Extinguisher",
+      name: "3kg DCP Fire Extinguisher",
       category: "Fire",
-      price: 28000,
-      image: "assets/products/6kg fire estinguisher.jpg",
+      price: 18000,
+      image: "https://via.placeholder.com/400x280?text=3kg+DCP+Extinguisher",
       description: "Portable dry chemical powder extinguisher suitable for offices, shops and homes.",
       featured: true
     },
     {
       id: "F002",
-      name: "Metal Detector (Chloride UK)",
+      name: "6kg DCP Fire Extinguisher",
       category: "Fire",
-      price: 14000,
-      image: "metal detector.jpg",
-      description: "Detect easily.",
+      price: 25000,
+      image: "https://via.placeholder.com/400x280?text=6kg+DCP+Extinguisher",
+      description: "Medium-size DCP extinguisher for commercial facilities and small industrial sites.",
       featured: true
     },
     {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "9kg DCP Fire Extinguisher",
       category: "Fire",
       price: 32000,
-      image: "9kg DCP fire estinguisher.jpg",
+      image: "https://via.placeholder.com/400x280?text=9kg+DCP+Extinguisher",
       description: "Heavy-duty dry chemical powder extinguisher for warehouses and factories.",
       featured: true
     },
@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F004",
       name: "5kg CO₂ Fire Extinguisher",
       category: "Fire",
-      price: 45000,
-      image: "5kg CO2 fire estinguisher.jpg",
+      price: 35000,
+      image: "https://via.placeholder.com/400x280?text=5kg+CO2+Extinguisher",
       description: "Carbon dioxide extinguisher ideal for electrical panels, server rooms and offices.",
       featured: true
     },
@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F005",
       name: "2kg CO₂ Fire Extinguisher",
       category: "Fire",
-      price: 28000,
-      image: "2kg CO2 fire estinguisher.jpg",
+      price: 26000,
+      image: "https://via.placeholder.com/400x280?text=2kg+CO2+Extinguisher",
       description: "Compact CO₂ extinguisher suitable for small offices and control rooms.",
       featured: false
     },
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "9L Foam Fire Extinguisher",
       category: "Fire",
       price: 34000,
-      image: "9l foam fire estinguisher.jpg",
+      image: "https://via.placeholder.com/400x280?text=Foam+Extinguisher",
       description: "Foam extinguisher for flammable liquid fires and general protection.",
       featured: false
     },
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F007",
       name: "9L Water Fire Extinguisher",
       category: "Fire",
-      price: 32000,
-      image: "9l water fire estinguisher.jpg",
+      price: 28000,
+      image: "https://via.placeholder.com/400x280?text=Water+Extinguisher",
       description: "Water-based extinguisher suitable for Class A fires involving solid combustibles.",
       featured: false
     },
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F008",
       name: "Automatic Ceiling Mounted Extinguisher",
       category: "Fire",
-      price: 55000,
-      image: "automatic ceiling mounted estinguisher",
+      price: 45000,
+      image: "https://via.placeholder.com/400x280?text=Automatic+Extinguisher",
       description: "Automatic fire extinguisher for server rooms, generator houses and storage areas.",
       featured: true
     },
@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F009",
       name: "Fire Blanket 1.2m x 1.2m",
       category: "Fire",
-      price: 12500,
-      image: "fire blanket 1.2*1.2.jpg",
+      price: 9000,
+      image: "https://via.placeholder.com/400x280?text=Fire+Blanket",
       description: "Compact fire blanket suitable for kitchens and small workspaces.",
       featured: false
     },
@@ -89,40 +89,22 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F010",
       name: "Fire Blanket 1.8m x 1.8m",
       category: "Fire",
-      price: 17500,
-      image: "fire blanket 1.8*1.8m.jpg",
+      price: 14000,
+      image: "https://via.placeholder.com/400x280?text=Large+Fire+Blanket",
       description: "Large fire blanket for industrial kitchens and workshops.",
       featured: false
     },
     {
       id: "F011",
-      name: "Fire Hose Reel & Box (Stangoz)" 
+      name: "Fire Hose Reel Complete Set",
       category: "Fire",
-      price: 330000,
-      image: "fire hose reel and box stangoz.jpg",
+      price: 165000,
+      image: "https://via.placeholder.com/400x280?text=Fire+Hose+Reel",
       description: "Wall-mounted fire hose reel with valve, nozzle and 30m hose.",
-      featured: false
+      featured: true
     },
-       {
+    {
       id: "F012",
-      name: "Fire Hose Reel & Box (Naffco)" 
-      category: "Fire",
-      price: 350000,
-      image: "fire hose reel and box naffco.jpg",
-      description: "Wall-mounted fire hose reel with valve, nozzle and 30m hose.",
-      featured: true
-    },
-    {
-      id: "F013",
-      name: "Fire Hose Reel & Box (Bajik)" 
-      category: "Fire",
-      price: 350000,
-      image: "fire hose reel and box bajik.jpg",
-      description: "Wall-mounted fire hose reel with valve, nozzle and 30m hose.",
-      featured: true
-    },
-    {
-      id: "F014",
       name: "Fire Hydrant Valve",
       category: "Fire",
       price: 95000,
@@ -131,16 +113,16 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F015",
-      name: "Auto Fire Ball",
+      id: "F013",
+      name: "Fire Brigade Inlet Connection",
       category: "Fire",
-      price: 220000,
-      image: "m-tek_fire_-_safety_ltd.org/assets/products/Auto Fire Ball.jpg",
+      price: 120000,
+      image: "https://via.placeholder.com/400x280?text=Brigade+Inlet",
       description: "Inlet connection for fire brigade to boost water into hydrant network.",
-      featured: true
+      featured: false
     },
     {
-      id: "F016",
+      id: "F014",
       name: "Manual Fire Alarm Call Point",
       category: "Fire",
       price: 18000,
@@ -149,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F017",
+      id: "F015",
       name: "Conventional Fire Alarm Control Panel (4 Zone)",
       category: "Fire",
       price: 220000,
@@ -158,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: true
     },
     {
-      id: "F018",
+      id: "F016",
       name: "Smoke Detector (Photoelectric)",
       category: "Fire",
       price: 9500,
@@ -167,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F019",
+      id: "F017",
       name: "Heat Detector (Fixed Temperature)",
       category: "Fire",
       price: 9800,
@@ -176,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F020",
+      id: "F018",
       name: "Fire Alarm Sounder with Strobe",
       category: "Fire",
       price: 18500,
@@ -185,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F021",
+      id: "F019",
       name: "Fire Exit Signage (Photoluminescent)",
       category: "Fire",
       price: 6500,
@@ -194,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
       featured: false
     },
     {
-      id: "F022",
+      id: "F020",
       name: "Fireproof Safe – Medium",
       category: "Fire",
       price: 250000,
