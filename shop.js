@@ -1020,7 +1020,6 @@ document.addEventListener("DOMContentLoaded", () => {
     description: "​​Complete plug-and-play surveillance for 24/7 property protection.",  
     featured: false 
   }
- 
   ];
 
   // --------------------------
