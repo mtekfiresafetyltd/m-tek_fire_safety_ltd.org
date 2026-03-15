@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F025",
       name: "Continous Flow Hose Reel",
       category: "Fire",
-      price: 17000,
+      price: 170000,
       image: "assets/products/continous flow hose reel.jpg",
       description: "High-volume water supply for rapid fire response. Designed for durability and constant flow in industrial settings.",
       featured: false
@@ -465,6 +465,16 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Early-warning fire detection for homes and offices. Battery-powered and easy to install.",
       featured: false
     },
+    {
+      id: "S027",
+      name: "Crash Helmet",
+      category: "Safety",
+      price: 21000,
+      image: "assets/products/crash helmet.jpg",
+      description: "Full-face protection with an aerodynamic shell for maximum safety and impact resistance.",
+      featured: false
+    },
+
 
     // SECURITY (20)
     {
