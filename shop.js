@@ -377,11 +377,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "S020",
-      name: "Lockout/Tagout Kit – Basic",
+      name: "MSA Helmet (Green)",
       category: "Safety",
-      price: 74000,
-      image: "https://via.placeholder.com/400x280?text=LOTO+Kit",
-      description: "Basic lockout/tagout kit for equipment isolation and maintenance safety.",
+      price: 6000,
+      image: "assets/products/MSA Helmet (Green).jpg",
+      description: "Hard material and flexible straps for impact absorption.",
       featured: true
     },
 
@@ -390,9 +390,9 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "Q001",
       name: "Handheld Metal Detector",
       category: "Security",
-      price: 38000,
-      image: "https://via.placeholder.com/400x280?text=Handheld+Detector",
-      description: "Portable metal detector for access control and event security.",
+      price: 20000,
+      image: "assets/products/metal detector.jpg",
+      description: "Hand held safety.",
       featured: true
     },
     {
