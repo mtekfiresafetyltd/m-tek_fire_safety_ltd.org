@@ -447,6 +447,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Impact-resistant footwear for maximum worksite protection.",
       featured: false
     },
+    {
+      id: "S026",
+      name: "Smoke Detector (Zeta)",
+      category: "Safety",
+      price: 21000,
+      image: "assets/products/Smoke Detector.jpg",
+      description: "Early-warning fire detection for homes and offices. Battery-powered and easy to install.",
+      featured: false
+    },
 
     // SECURITY (20)
     {
