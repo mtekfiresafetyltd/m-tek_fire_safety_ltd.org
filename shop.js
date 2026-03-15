@@ -1013,10 +1013,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 
   {
     id: "H022",
-    name: "Bulb Surveillance Camera",
+    name: "Surveillance Equipments Set",
     category: "Home Automation, Alarm & Surveillance",
     price: 550000,
-    image: "assets/products/bulb camera.jpg",
+    image: "assets/products/cctv equipments.jpg",
     description: "​​Complete plug-and-play surveillance for 24/7 property protection.",  
     featured: false 
   }
