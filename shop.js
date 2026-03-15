@@ -452,7 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Smoke Detector (Zeta)",
       category: "Safety",
       price: 21000,
-      image: "assets/products/Smoke Detector.jpg",
+      image: "assets/products/Zeta Smoke Detector.jpg",
       description: "Early-warning fire detection for homes and offices. Battery-powered and easy to install.",
       featured: false
     },
@@ -1001,7 +1001,26 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "https://via.placeholder.com/400x280?text=Cat6+Cable",
       description: "Ethernet cable roll for network and IP camera infrastructure.",
       featured: false
-    }
+    }, 
+    {
+      id: "H021",
+      name: "Bulb Surveillance Camera",
+      category: "Home Automation, Alarm & Surveillance",
+      price: 35000,
+      image: "assets/products/bulb camera.jpg",
+      description: "​Smart security that screws into any standard light socket. No wiring required.",
+      featured: false
+  }, 
+  {
+    id: "H022",
+    name: "Bulb Surveillance Camera",
+    category: "Home Automation, Alarm & Surveillance",
+    price: 550000,
+    image: "assets/products/bulb camera.jpg",
+    description: "​​Complete plug-and-play surveillance for 24/7 property protection.",  
+    featured: false 
+  }
+ 
   ];
 
   // --------------------------
