@@ -192,6 +192,15 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "assets/products/Beak Glass.jpg",
       description: "Designed for rapid activation in emergencies.",
       featured: false
+    },    
+    {
+      id: "F022",
+      name: "Caution Cone",
+      category: "Fire",
+      price: 22000,
+      image: "assets/products/Caution Cone (75cm).jpg",
+      description: "High visibility reflective.",
+      featured: true
     },
 
     // SAFETY (20)
