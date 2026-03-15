@@ -202,6 +202,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "High visibility reflective.",
       featured: true
     },
+    {
+      id: "F023",
+      name: "50kg Fire Estinguisher (DCP)",
+      category: "Fire",
+      price: 22000,
+      image: "assets/products/DCP_50kg_Fire_Extinguisher.jpg",
+      description: "High-capacity ABC Dry Powder unit for large-scale industrial fires. Rapid suppression on a maneuverable wheeled chassis.",
+      featured: true
+    },
 
     // SAFETY (20)
     {
