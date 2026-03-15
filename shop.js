@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Continous Flow Hose Reel",
       category: "Fire",
       price: 17000,
-      image: "assets/products/Continous Flow Hose Reel.jpg",
+      image: "assets/products/continous flow hose reel.jpg",
       description: "High-volume water supply for rapid fire response. Designed for durability and constant flow in industrial settings.",
       featured: false
     },
