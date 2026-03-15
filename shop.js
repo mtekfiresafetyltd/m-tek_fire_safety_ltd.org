@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Break Glass",
       category: "Fire",
       price: 8000,
-      image: "assets/products/Break Glass.jpg",
+      image: "assets/products/Beak Glass.jpg",
       description: "Designed for rapid activation in emergencies.",
       featured: false
     },
@@ -242,11 +242,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "S006",
-      name: "Nitrile-Coated Safety Gloves",
+      name: "Beware of Dogs (Mounted)",
       category: "Safety",
-      price: 2500,
-      image: "https://via.placeholder.com/400x280?text=Safety+Gloves",
-      description: "Durable gloves for handling equipment and general maintenance tasks.",
+      price: 6500,
+      image: "assets/products/Beware Of Dogs Mounted.jpg",
+      description: "High-visibility, weather-resistant signage designed for gates and fences. Alert visitors and deter intruders with clear, bold lettering on heavy-duty aluminum.",
       featured: false
     },
     {
