@@ -211,6 +211,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "High-capacity ABC Dry Powder unit for large-scale industrial fires. Rapid suppression on a maneuverable wheeled chassis.",
       featured: true
     },
+    {
+      id: "F024",
+      name: "Pillar Hydrant",
+      category: "Fire",
+      price: 55000,
+      image: "assets/products/Pillar Hydrant.jpg",
+      description: "​High-flow external fire hydrant for rapid emergency water supply.",
+      featured: false
+    },
 
     // SAFETY (20)
     {
@@ -399,7 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Safety",
       price: 6000,
       image: "assets/products/MSA Helmet Blue.jpg",
-      description: ".",
+      description: "Hard material and flexible straps for impact absorption.",
       featured: false
     },
     {
@@ -409,6 +418,33 @@ document.addEventListener("DOMContentLoaded", () => {
       price: 6000,
       image: "assets/products/Muster Point Mounted.jpg",
       description: "High-visibility assembly point marker for rapid evacuations. Weatherproof, bold, and easy to mount.",
+      featured: false
+    },
+    {
+      id: "S023",
+      name: "Safety Overall",
+      category: "Safety",
+      price: 16000,
+      image: "assets/products/Overall.jpg",
+      description: "Durable, full-body protection for industrial and manual work.",
+      featured: false
+    },
+    {
+      id: "S024",
+      name: "Safety Boots (Rocklander)",
+      category: "Safety",
+      price: 21000,
+      image: "assets/products/Rocklander Safety Boots.jpg",
+      description: "Impact-resistant footwear for maximum worksite protection.",
+      featured: false
+    },
+    {
+      id: "S025",
+      name: "Safety Boots (Armstrong)",
+      category: "Safety",
+      price: 22000,
+      image: "assets/products/Rocklander Safety Boots.jpg",
+      description: "Impact-resistant footwear for maximum worksite protection.",
       featured: false
     },
 
