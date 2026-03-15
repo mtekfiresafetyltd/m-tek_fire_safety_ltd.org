@@ -229,7 +229,33 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "High-volume water supply for rapid fire response. Designed for durability and constant flow in industrial settings.",
       featured: false
     },
-
+    {
+      id: "F026",
+      name: "Hose Reel & Box",
+      category: "Fire",
+      price: 365000,
+      image: "assets/products/hose reel and box.jpg",
+      description: "Complete fire safety station with a wall-mounted reel and weather-resistant storage box.",
+      featured: false
+    }, 
+    {
+      id: "F027",
+      name: "Hose Reel",
+      category: "Fire",
+      price: 130000,
+      image: "assets/products/Beak Glass.jpg",
+      description: "Fire safety station with a wall-mounted and ceiling.",
+      featured: false
+    }, 
+    {
+      id: "F028",
+      name: "Landing Valve",
+      category: "Fire",
+      price: 80000,
+      image: "assets/products/landing ",
+      description: "High-pressure outlet for internal fire hydrants. Provides a reliable water connection for emergency teams.",
+      featured: false
+    },    
     // SAFETY (20)
     {
       id: "S001",
@@ -472,6 +498,15 @@ document.addEventListener("DOMContentLoaded", () => {
       price: 21000,
       image: "assets/products/crash helmet.jpg",
       description: "Full-face protection with an aerodynamic shell for maximum safety and impact resistance.",
+      featured: false
+    },
+    {
+      id: "S028",
+      name: "Ear Muffs",
+      category: "Safety",
+      price: 16000,
+      image: "assets/products/ear muffs.jpg",
+      description: "High-decibel noise reduction for hearing protection in loud environments.",
       featured: false
     },
 
