@@ -177,11 +177,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F020",
-      name: "Fireproof Safe – Medium",
+      name: "Auto Fire Ball",
       category: "Fire",
-      price: 250000,
-      image: "https://via.placeholder.com/400x280?text=Fireproof+Safe",
-      description: "Fire-resistant safe suitable for important documents, cash and valuables.",
+      price: 210000,
+      image: "assets/products/Auto Fire Ball.jpg",
+      description: "Extinguish fire in your absence.",
       featured: true
     },
 
