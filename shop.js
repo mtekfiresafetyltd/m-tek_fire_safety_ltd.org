@@ -220,6 +220,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "​High-flow external fire hydrant for rapid emergency water supply.",
       featured: false
     },
+    {
+      id: "F025",
+      name: "Continous Flow Hose Reel",
+      category: "Fire",
+      price: 17000,
+      image: "assets/products/Continous Flow Hose Reel.jpg",
+      description: "High-volume water supply for rapid fire response. Designed for durability and constant flow in industrial settings.",
+      featured: false
+    },
 
     // SAFETY (20)
     {
