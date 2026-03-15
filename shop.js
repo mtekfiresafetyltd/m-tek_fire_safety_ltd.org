@@ -391,7 +391,16 @@ document.addEventListener("DOMContentLoaded", () => {
       price: 6000,
       image: "assets/products/MSA Helmet (Green).jpg",
       description: "Hard material and flexible straps for impact absorption.",
-      featured: true
+      featured: false
+    },
+    {
+      id: "S021",
+      name: "MSA Helmet (Blue)",
+      category: "Safety",
+      price: 6000,
+      image: "assets/products/MSA Helmet Blue.jpg",
+      description: "Hard material and flexible straps for impact absorption.",
+      featured: false
     },
 
     // SECURITY (20)
