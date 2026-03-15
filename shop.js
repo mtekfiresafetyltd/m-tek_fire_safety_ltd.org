@@ -399,7 +399,16 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Safety",
       price: 6000,
       image: "assets/products/MSA Helmet Blue.jpg",
-      description: "Hard material and flexible straps for impact absorption.",
+      description: ".",
+      featured: false
+    },
+    {
+      id: "S022",
+      name: "Muster Point (Mounted)",
+      category: "Safety",
+      price: 6000,
+      image: "assets/products/Muster Point Mounted.jpg",
+      description: "High-visibility assembly point marker for rapid evacuations. Weatherproof, bold, and easy to mount.",
       featured: false
     },
 
