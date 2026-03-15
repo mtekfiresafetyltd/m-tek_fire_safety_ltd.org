@@ -71,10 +71,10 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F008",
       name: "Automatic Ceiling Mounted Extinguisher",
       category: "Fire",
-      price: 45000,
-      image: "https://via.placeholder.com/400x280?text=Automatic+Extinguisher",
-      description: "Automatic fire extinguisher for server rooms, generator houses and storage areas.",
-      featured: true
+      price: 65000,
+      image: "assets/products/Fire Estinguisher Hanged.jpg",
+      description: "Heat-activated fire suppression for 24/7 protection. Ideal for server rooms or kitchens.",
+      featured: false 
     },
     {
       id: "F009",
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F023",
       name: "50kg Fire Estinguisher (DCP)",
       category: "Fire",
-      price: 22000,
+      price: 230000,
       image: "assets/products/DCP_50kg_Fire_Extinguisher.jpg",
       description: "High-capacity ABC Dry Powder unit for large-scale industrial fires. Rapid suppression on a maneuverable wheeled chassis.",
       featured: true
