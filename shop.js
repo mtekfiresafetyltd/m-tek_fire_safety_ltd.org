@@ -179,10 +179,19 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "F020",
       name: "Auto Fire Ball",
       category: "Fire",
-      price: 210000,
+      price: 21000,
       image: "assets/products/Auto Fire Ball.jpg",
       description: "Extinguish fire in your absence.",
       featured: true
+    },
+    {
+      id: "F021",
+      name: "Break Glass",
+      category: "Fire",
+      price: 8000,
+      image: "assets/products/Break Glass.jpg",
+      description: "Designed for rapid activation in emergencies.",
+      featured: false
     },
 
     // SAFETY (20)
