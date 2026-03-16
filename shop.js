@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F011",
-      name: "Fire Hose Reel & Box",
+      name: "Fire Hose Reel & Box (Stangoz)",
       category: "Fire",
       price: 265000,
       image:"assets/products/hose reel and box.jpg",
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F026",
-      name: "Hose Reel & Box (Bajik)",
+      name: "Fire Hose Reel & Box (Bajik)",
       category: "Fire",
       price: 365000,
       image: "assets/products/hose reel and box.jpg",
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 
     {
       id: "F027",
-      name: "Hose Reel",
+      name: "Fire Hose Reel",
       category: "Fire",
       price: 130000,
       image: "assets/products/hose reel.jpg",
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Landing Valve",
       category: "Fire",
       price: 80000,
-      image: "assets/products/landing ",
+      image: "assets/products/landing valve.jpg",
       description: "High-pressure outlet for internal fire hydrants. Provides a reliable water connection for emergency teams.",
       featured: false
     },    
@@ -692,6 +692,16 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Central power supply unit for multiple CCTV cameras.",
       featured: false
     },
+    {
+      id: "Q021",
+      name: "No Safety Know Pain (Mounted)",
+      category: "Security",
+      price: 8500,
+      image: "assets/products/no safety know pain-know safety no pain.jpg",
+      description: "Durable weather-proof cautionning signage accident prevention ",
+      featured: false
+    },
+
 
     // SOLAR (20)
     {
