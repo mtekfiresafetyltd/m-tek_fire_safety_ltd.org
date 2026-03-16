@@ -256,6 +256,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "High-pressure outlet for internal fire hydrants. Provides a reliable water connection for emergency teams.",
       featured: false
     },    
+    {
+      id: "F029",
+      name: "One Way Pillar Hydrant",
+      category: "Fire",
+      price: 80000,
+      image: "assets/products/one way pillar hydrant.jpg",
+      description: "Designed for rapid activation in emergencies.",
+      featured: false
+    },    
     // SAFETY (20)
     {
       id: "S001",
@@ -421,11 +430,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "S019",
-      name: "Spill Kit – General Purpose",
+      name: "Reflective Jacket (Green)",
       category: "Safety",
-      price: 58000,
-      image: "https://via.placeholder.com/400x280?text=Spill+Kit",
-      description: "Absorbent pads, socks and PPE for spill response.",
+      price: 58000, 
+      image: "assets/products/reflective jacket green.jpg",
+      description: "Highly reflective.",
       featured: false
     },
     {
