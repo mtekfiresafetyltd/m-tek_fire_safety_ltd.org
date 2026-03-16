@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F026",
-      name: "Hose Reel & Box",
+      name: "Hose Reel & Box (Bajik)",
       category: "Fire",
       price: 365000,
       image: "assets/products/hose reel and box.jpg",
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Hose Reel",
       category: "Fire",
       price: 130000,
-      image: "assets/products/Beak Glass.jpg",
+      image: "assets/products/hose reel.jpg",
       description: "Fire safety station with a wall-mounted and ceiling.",
       featured: false
     }, 
