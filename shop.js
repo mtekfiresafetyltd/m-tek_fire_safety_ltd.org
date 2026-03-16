@@ -114,11 +114,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F013",
-      name: "Fire Brigade Inlet Connection",
+      name: "Sprinkler Head",
       category: "Fire",
-      price: 120000,
-      image: "https://via.placeholder.com/400x280?text=Brigade+Inlet",
-      description: "Inlet connection for fire brigade to boost water into hydrant network.",
+      price: 4500,
+      image: "assets/products/sprinkler head.jpg",
+      description: "Ceiling mounted Estinguisher's heat sensor.",
       featured: false
     },
     {
@@ -264,7 +264,8 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "assets/products/one way pillar hydrant.jpg",
       description: "Designed for rapid activation in emergencies.",
       featured: false
-    },    
+    }, 
+    
     // SAFETY (20)
     {
       id: "S001",
@@ -834,8 +835,8 @@ document.addEventListener("DOMContentLoaded", () => {
       id: "L014",
       name: "DC LED Bulb – 12V 9W",
       category: "Solar",
-      price: 2500,
-      image: "https://via.placeholder.com/400x280?text=DC+LED+Bulb",
+      price: 5000,
+      image: "assets/products/solar bulb.jpg",
       description: "Energy-efficient DC bulb for solar lighting systems.",
       featured: false
     },
