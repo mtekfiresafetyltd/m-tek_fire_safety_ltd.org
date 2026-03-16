@@ -96,10 +96,10 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "F011",
-      name: "Fire Hose Reel Complete Set",
+      name: "Fire Hose Reel & Box",
       category: "Fire",
-      price: 165000,
-      image: "https://via.placeholder.com/400x280?text=Fire+Hose+Reel",
+      price: 265000,
+      image:"assets/products/hose reel and box.jpg",
       description: "Wall-mounted fire hose reel with valve, nozzle and 30m hose.",
       featured: true
     },
