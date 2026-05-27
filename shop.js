@@ -1735,7 +1735,7 @@ document.addEventListener("DOMContentLoaded", () => {
         featured: true
     },
 
-//SECURITY
+// SECURITY
     {
       id: "Q001",
       name: "Handheld Metal Detector",
@@ -1831,10 +1831,11 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Standalone PIR Motion Sensor Alarm",
       category: "Security",
       price: 21000,
-      image: "https://", 
-      description: "", 
-      featured : false
- 
+      image: "https://via.placeholder.com/400x280?text=PIR+Sensor",
+      description: "Standalone PIR motion sensor with alarm.",
+      featured: false
+    },
+
     // SOLAR
     {
         id: "L001",
