@@ -1831,11 +1831,11 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Standalone PIR Motion Sensor Alarm",
       category: "Security",
       price: 21000,
-      image: "https://
-      description: ""
-      featured : ""
+      image: "https://", 
+      description: "", 
+      featured : false
  
-    //SOLAR
+    // SOLAR
     {
         id: "L001",
         name: "1000Watts Satchet Inverter",
