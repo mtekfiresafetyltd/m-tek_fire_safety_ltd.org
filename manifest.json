@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "description": "M‑Tek Fire &amp; Safety Ltd is a certified fire safety, security and solar equipment supplier in Kaduna, Nigeria. Sales, installation, refilling, maintenance, consultancy and training since 2012.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "M-Tek Fire &amp; Safety Ltd",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "M-Tek",
+  "start_url": "/",
+  "theme_color": "#f00404",
+  "id": "mtekfiresafetyltd"
+}
